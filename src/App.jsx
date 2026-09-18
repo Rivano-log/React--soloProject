@@ -8,7 +8,7 @@ import PropertyPage from "./pages/PropertyPage";
 import DestinationsPage from "./pages/DestinationsPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-import NotFound from "./pages/NotFound";
+import NotFound from "./pages/notFound";
 import ScrollToTop from "./components/ScrollToTop";
 
 

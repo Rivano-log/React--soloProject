@@ -1429,6 +1429,52 @@ img {
 .menu__phone:hover {
     color: var(--gold);
 }
+/* notfound */
+.notfound {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 24px;
+    gap: 16px;
+}
+
+.notfound__code {
+    font-size: 96px;
+    font-weight: 700;
+    color: #c9a227;
+    margin: 0;
+    line-height: 1;
+}
+
+.notfound__title {
+    font-size: 32px;
+    color: #0e2a47;
+    margin: 0;
+}
+
+.notfound__text {
+    font-size: 16px;
+    color: #555;
+    max-width: 420px;
+    margin: 0;
+}
+
+.notfound__button {
+    margin-top: 16px;
+    padding: 14px 32px;
+    background-color: #0e2a47;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.notfound__button:hover {
+    background-color: #c9a227;
+}
 
 /* ============ responsive ============ */
 
